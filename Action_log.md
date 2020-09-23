@@ -7,3 +7,4 @@
 2020-09-23 \ Danny Tran  
     Install and update (Python, PyQt5, PyQt5-tools)  
     Begin base outline of pseudo code  
+    Review documentation (PyQt)

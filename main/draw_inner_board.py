@@ -1,0 +1,3 @@
+"""
+Inner board draw handler
+"""

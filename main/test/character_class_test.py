@@ -7,7 +7,8 @@ import character_class as char
 #creation
 
 person_1 = char.Character(25)
-print(person_1)
+print('calculated:', person_1)
+print('expected: Character(25, set(), [], []))
 
 #cash features
 

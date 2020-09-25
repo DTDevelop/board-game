@@ -8,3 +8,6 @@
     Install and update (Python, PyQt5, PyQt5-tools)  
     Begin base outline of pseudo code  
     Review documentation (PyQt)
+  
+2020-09-24 \ Danny Tran
+    Created files for character_class, house_class, item_class, draw_inner_board, draw_outer_board, start_game

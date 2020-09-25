@@ -2,18 +2,17 @@
 Testing creation and features of character object
 """
 
-import sys
-sys.path.append("..") #assuming imported file in directory above
-import character_class as char_module
+import character_class as char
 
 #creation
-
-person_1 = char_module.Character(25)
+print('--TESTING CREATION--')
+person_1 = char.Character(25)
 print('calculated:', person_1)
-print('expected: Character(25, set(), [], [])')
+print('expected: Character(25, set(), [], [])'')
+print('')
 
 #cash features
-
+print('--TESTING CASH FEATURES--')
 person_1.withdraw_cash(10)
 a = (person_1.get_cash()) #expected 15
 if person_1.get_cash() > 30: #expected False
@@ -28,6 +27,7 @@ c = (person_1.get_cash()) #expected 25
 
 print('calculated:', a,b,c)
 print('expected: 15, 20, 25')
+print('')
 
 #house features
 
@@ -43,6 +43,27 @@ print('expected: 15, 20, 25')
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
 
 
 

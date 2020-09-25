@@ -2,6 +2,8 @@
 Testing creation and features of character object
 """
 
+import sys
+sys.path.append("..") #assuming imported file in directory above
 import character_class as char_module
 
 #creation

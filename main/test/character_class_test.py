@@ -8,7 +8,7 @@ import character_class as char
 print('--TESTING CREATION--')
 person_1 = char.Character(25)
 print('calculated:', person_1)
-print('expected: Character(25, set(), [], [])'')
+print('expected: Character(25, set(), [], [])')
 print('')
 
 #cash features

@@ -11,3 +11,4 @@
   
 2020-09-24 \ Danny Tran  
     Created files for main classes and game logic
+    Finish implementation of Character Class

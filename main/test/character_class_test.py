@@ -2,13 +2,13 @@
 Testing creation and features of character object
 """
 
-import character_class as char
+import character_class as char_module
 
 #creation
 
-person_1 = char.Character(25)
+person_1 = char_module.Character(25)
 print('calculated:', person_1)
-print('expected: Character(25, set(), [], []))
+print('expected: Character(25, set(), [], [])')
 
 #cash features
 
